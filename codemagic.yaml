@@ -1,0 +1,25 @@
+workflows:
+  android-workflow:
+    name: Android Build
+    instance_type: linux
+    max_build_time: 60
+    
+    environment:
+      android_signing:
+        - my_key
+        
+    scripts:
+      - name: Install SDK
+        script: |
+          sdkmanager "platforms;android-33"
+      - name: Build APK
+        script: |
+          ./gradlew assembleDebug
+        
+    artifacts:
+      - app/build/outputs/apk/debug/*.apk
+      
+    publishing:
+      email:
+        recipients:
+          - qiiiii-clow@qq.com
