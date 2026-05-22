@@ -12,8 +12,6 @@
 local.properties
 
 # Gradle wrapper
-gradlew
-gradlew.bat
 
 # Proguard
 proguard/
@@ -88,7 +86,6 @@ temp/
 # Android Studio system
 system_data/
 idea/
-gradle/
 !.gradle/
 
 # Android external native build
