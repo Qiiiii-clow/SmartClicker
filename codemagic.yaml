@@ -2,7 +2,6 @@ workflows:
   android-workflow:
     name: Android Build
     instance_type: linux
-    max_build_time: 60
     
     environment:
       android_signing:
