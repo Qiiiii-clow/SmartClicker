@@ -1,0 +1,167 @@
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# Built application files
+/build/
+/app/build/
+
+# Local configuration file (sdk path, etc.)
+local.properties
+
+# Gradle wrapper
+gradlew
+gradlew.bat
+
+# Proguard
+proguard/
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.copyright
+
+# Android DataBinding
+ databinding/
+
+# Android Resources
+res/values/r.txt
+res/raw/
+res/xml/r.xml
+res/drawable/r.xml
+
+# Android Tests
+test-build/
+
+# Android Gradle
+.gradle/
+build/
+*/build/
+
+# Android Keystore
+*.jks
+*.keystore
+
+# Android Crash Reports
+*.txt
+*.log
+
+# Android Native Libraries
+libs/*.so
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Android Profiler
+*.hprof
+
+# Android Performance Monitor
+*.perf
+
+# Android APK
+*.apk
+*.ap_
+
+# Android APK Expansion Files
+*.obb
+
+# Android ABI Filters
+abi/
+
+# Android Instant Apps
+instantApp/
+
+# Android Module
+*/module/
+
+# Android Studio captures
+captures/
+
+# Android Studio temporary files
+temp/
+
+# Android Studio system
+system_data/
+idea/
+gradle/
+!.gradle/
+
+# Android external native build
+externalNativeBuild/
+cxx/
+
+# Android CMake
+CMakeSettings.xml
+CMakeFiles/
+CMakePresets.json
+*-build/
+
+# Android NDK
+obj/
+
+# Android Lint
+lint-results.html
+lint-results.xml
+lint-fix.backup
+
+# Android Test
+reports/
+
+# Android SDK
+sdk/
+
+# Android AVD
+.avd/
+.android/
+
+# Android SDK Manager
+.android/
+
+# Android Build
+outputs/
+app/outputs/
+
+# Android Generated Files
+gen/
+R.txt
+
+# Android Resource Folding
+resource-folders/
+
+# Android Asset Packs
+asset-packs/
+
+# Android App Bundles
+*.aab
+
+# Android Split APKs
+split-apk/
+
+# Android DEX
+*.dex
+
+# Android Resource Cache
+resource-cache/
+
+# Android Build Cache
+build-cache/
+
+# Android Manifest Merger
+manifest-merger/
+
+# Android Packaging
+packaging/
+
+# Android Signing
+signing/
+
+# Android Vitals
+vitals/
+
+# Android Trace
+trace/

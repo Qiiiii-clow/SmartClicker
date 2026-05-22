@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">智能点击器</string>
+    <string name="accessibility_description">智能屏幕点击器 - 通过AI识别屏幕元素,智能执行点击操作。支持自动点击、识图点击、颜色识别、文字识别等功能。</string>
+    
+    <!-- 主界面 -->
+    <string name="main_start_clicking">开始点击</string>
+    <string name="main_stop_clicking">停止</string>
+    <string name="main_settings">设置</string>
+    <string name="main_steps">点击步骤</string>
+    <string name="main_scanner">智能扫描</string>
+    
+    <!-- 点击模式 -->
+    <string name="mode_simple_click">简单点击</string>
+    <string name="mode_continuous_click">连续点击</string>
+    <string name="mode_image_recognition">识图点击</string>
+    <string name="mode_color_recognition">颜色识别</string>
+    <string name="mode_text_recognition">文字识别</string>
+    <string name="mode_step_editor">步骤编辑器</string>
+    
+    <!-- 步骤编辑器 -->
+    <string name="editor_add_step">添加步骤</string>
+    <string name="editor_save">保存方案</string>
+    <string name="editor_load">加载方案</string>
+    <string name="editor_delete">删除方案</string>
+    <string name="editor_step_title">步骤标题</string>
+    <string name="editor_step_type">步骤类型</string>
+    <string name="editor_delay">延迟时间(毫秒)</string>
+    
+    <!-- 智能扫描 -->
+    <string name="scanner_scanning">正在扫描...</string>
+    <string name="scanner_found_elements">发现 %d 个可点击元素</string>
+    <string name="scanner_no_elements">未发现可点击元素</string>
+    <string name="scanner_start">开始扫描</string>
+    <string name="scanner_stop">停止扫描</string>
+    
+    <!-- 设置 -->
+    <string name="settings_general">常规设置</string>
+    <string name="settings_accessibility">无障碍服务</string>
+    <string name="settings_enable_service">启用智能点击器</string>
+    <string name="settings_auto_click_interval">自动点击间隔(毫秒)</string>
+    <string name="settings_max_clicks">最大点击次数</string>
+    <string name="settings_vibration">震动反馈</string>
+    <string name="settings_sound">声音反馈</string>
+    
+    <!-- 提示消息 -->
+    <string name="toast_service_enabled">无障碍服务已启用</string>
+    <string name="toast_service_disabled">请启用无障碍服务</string>
+    <string name="toast_clicking_started">开始点击</string>
+    <string name="toast_clicking_stopped">停止点击</string>
+    <string name="toast_no_permission">需要悬浮窗权限</string>
+    
+    <!-- 元素类型 -->
+    <string name="element_type_button">按钮</string>
+    <string name="element_type_edit_text">输入框</string>
+    <string name="element_type_image">图片</string>
+    <string name="element_type_link">链接</string>
+    <string name="element_type_checkbox">复选框</string>
+    <string name="element_type_radio">单选框</string>
+</resources>
