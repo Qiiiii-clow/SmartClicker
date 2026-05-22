@@ -1,7 +1,6 @@
 workflows:
   android-workflow:
     name: Android Build
-    instance_type: linux
     
     scripts:
       - ./gradlew assembleDebug
