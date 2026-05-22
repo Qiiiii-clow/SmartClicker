@@ -69,13 +69,13 @@
         <service
             android:name=".service.FloatWindowService"
             android:exported="false"
-            android:foregroundServiceType="shortService" />
+            android: />
         
         <!-- 点击执行服务 -->
         <service
             android:name=".service.ClickExecutionService"
             android:exported="false"
-            android:foregroundServiceType="shortService" />
+            android: />
         
     </application>
 
